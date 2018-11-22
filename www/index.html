@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <meta http-equiv="content_security_policy": "script-src 'self' https://example.com; object-src 'self'">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Lesson 3 Camera</title>
+    </head>
+    <body>
+        <div class="center" id="app">
+            <h1>Photo Booth</h1>
+            <button onClick="takePicture()">Take Photo</button>
+            <p><img src="img/logo.png" alt="image" id="photoOutput" /></p>
+            <p id="coordsOutput"></p>
+            </div>
+        </div> 
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
